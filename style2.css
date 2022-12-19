@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+}
+:root{
+    --green:#16a085;
+    --black:#444;
+    --light:#777;
+    --shadow:0.5rem 0.5rem 0 rgb(22,160,133,0.2);
+    --text-shadow:0.4rem 0.4rem 0 rgb(0,0,0,0.2);
+}
+html{
+    overflow-x: hidden;
+    font-size: 62.5%;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+.doc{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: var(--text-shadow);
+    
+}
+.doc span{
+    color: var(--green);
+
+}
+.doctors{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.doc1{
+   border: 2px solid var(--green);
+   width: 360px;
+   text-align: center;
+   border-radius: 3px;
+   height: 360px;
+   margin-top: 20px;
+}
+.doc1 img{
+    width: 150px;
+    height: 20rem;
+    margin-top: 1rem;
+    border:0.2rem solid var(--green);
+}
+.doc1 h1{
+    font-size: 20px;
+    font-weight: 10px;
+}
+.doc1 p{
+    color: var(--green);
+    font-size: 20px;
+}
+.doc1 i{
+    margin: 9px;
+    font-size: 20px;
+    color: var(--green);
+    border: 1px solid var(--green);
+    border-radius: 2px;
+    padding: 4px;
+}
+.doc1 i:hover{
+    color: white;
+    background-color: var(--green);
+    cursor: pointer;
+}
+.doc1 img:hover{
+    transform: scale(1, 0.75);
+}
+
+    
